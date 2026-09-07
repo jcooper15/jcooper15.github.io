@@ -1,20 +1,50 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
+    max-width: 100px;
+    margin: 40px;
+    padding: 20px;
     line-height: 1.6;
 }
 
 header {
     margin-bottom: 50px;
+    padding: 20px;
+    text-align: center;
 }
 
-.project {
-    margin-bottom: 60px;
+/* Main content area */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
+/* Project images */
 .project img {
     max-width: 100%;
     height: auto;
+}
+
+/* Headings */
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+/* Paragraph text */
+p {
+    line-height: 1.6;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }

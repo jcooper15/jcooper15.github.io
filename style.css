@@ -20,12 +20,17 @@ main {
 }
 
 /* Project images */
-.project img {
-    max-width: 700px;
-    height: auto;
+.image {
     display: flex;
-    gap: 15px;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.projects img {
+  width: 300px;
+  height: auto;
 }
 
 /* Headings */

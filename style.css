@@ -24,14 +24,16 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
 
-.projects img {
+.image img {
+    display: block;
     width: 300px;
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
 }
 
 /* Headings */

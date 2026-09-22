@@ -21,7 +21,6 @@ main {
 
 /* Project images */
 .image {
-    max-width: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -30,8 +29,9 @@ main {
 
 
 .projects img {
-  width: 300px;
-  height: auto;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Headings */

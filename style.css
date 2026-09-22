@@ -21,6 +21,7 @@ main {
 
 /* Project images */
 .image {
+    max-width: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

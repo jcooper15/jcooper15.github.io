@@ -24,16 +24,16 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
 }
 
 
 .image img {
-    display: block;
-    height: 500px;
+    height: 100px;
     width: auto;
     max-width: 100%;
+    display: block;
 }
 
 /* Headings */
